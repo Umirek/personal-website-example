@@ -1,13 +1,41 @@
 :root{
     --font-size: 14px !important;
     --bs-primary-rgb: 94,59,238 !important;
+    --bs-success-rgb: 245,252,255;
 }
 
+
+body{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
 
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     color: #282938;
     font-weight: bold;
+}
+
+.button-contact-me{
+    background-color: #FFFFFF;
+    border: 1px solid #5E3BEE ;
+    border-radius: 5.33px;
+    padding: 14px 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #5E3BEE;
+}
+
+.get-in-touch-button{
+    background-color: #5E3BEE;
+    color: #FFFFFF;
+    border: 1px solid #5E3BEE;
+    border-radius: 5.33px;
+    padding: 15px 20px;
+}
+
+.em-text{
+    color: #5E3BEE;
 }
 
 h1 {
