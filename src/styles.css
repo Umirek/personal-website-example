@@ -1,6 +1,7 @@
 :root{
     --font-size: 14px !important;
     --bs-primary-rgb: 94,59,238 !important;
+    --bs-secondary-rgb: 245,252,255;
     --bs-success-rgb: 245,252,255;
 }
 
