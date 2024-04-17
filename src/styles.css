@@ -1,5 +1,4 @@
 :root{
-    --font-size: 14px !important;
     --bs-primary-rgb: 94,59,238 !important;
     --bs-secondary-rgb: 245,252,255;
     --bs-success-rgb: 245,252,255;
@@ -37,6 +36,14 @@ h1, h2, h3 {
 
 .em-text{
     color: #5E3BEE;
+}
+
+a {
+    text-decoration-color: #5E3BEE !important;
+    color: #000000 !important;
+    text-decoration: underline;
+    text-decoration-skip-ink: none; /* Prevents the underline from overlapping the descenders of letters */
+    text-underline-offset: 15px; /* Adjust this value to increase or decrease the space between the text and the underline */
 }
 
 h1 {
