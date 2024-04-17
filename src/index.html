@@ -33,20 +33,20 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link link-primary" href="#">Home</a>
+                        <a class="nav-link link-primary" href="./contact.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About me</a>
+                        <a class="nav-link" href="#about-me">About me</a>
                     </li>
                 </ul>
             </div>
 
             <!--Contact Me Button-->
             <div class="d-none d-md-inline">
-                <button class="button-contact-me">
+                <button class="button-contact-me" onclick="location.href = './contact.html';">
                     Contact Me
                 </button>
             </div>
@@ -62,17 +62,17 @@
             <div class="col-12 col-xl-6">
                 <img src="images/man-transparent.png" class="d-block img-fluid mx-auto" width="700" alt="man">
             </div>
-            <div class="col-12 col-xl-6">
+            <div class="col-12 col-md-11 offset-md-1 col-xl-5 offset-xl-1">
                 <div class="col-12 d-none d-xl-block">
                     <div>Hey, I am John</div>
                 </div>
                 <div class="col-12">
-                    <h1>I create product <span class="em-text">design and brand</span> experience</h1>
+                    <h1>I create <span class="em-text">product design</span> and brand experience</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita numquam placeat quibusdam nihil rerum alias deserun</p>
                 </div>
 
                 <div class="col-12">
-                    <button class="get-in-touch-button">Get in Touch</button>
+                    <button class="get-in-touch-button" onclick="location.href = './contact.html';">Get in Touch</button>
                 </div>
 
             </div>
@@ -81,7 +81,7 @@
 
     <!--About Me-->
 
-    <div class="container-fluid mt-3">
+    <div class="container-fluid mt-3" id="about-me">
         <div class="row">
             <div class="col-sm-8 offset-sm-2">
                 <h2 class="text-center">About me</h2>
@@ -151,7 +151,7 @@
 
     <h2 class="text-center mt-5">My Portfolio</h2>
 
-    <div class="container mt-3">
+    <div class="container mt-3" id="portfolio">
         <div class="row g-5">
             <div class="col-12 col-md-6 col-xxl-4">
                 <div class="bg-secondary mx-auto" style="max-width: 23rem;">
@@ -199,8 +199,8 @@
         <footer class="py-3 mt-4 bg-secondary">
           <ul class="nav justify-content-center border-bottom pb-1 mb-3">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Portfolio</a></li>
+            <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-body-secondary">Contact</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link px-2 text-body-secondary">Portfolio</a></li>
           </ul>
           <p class="text-center text-body-secondary"><img src="images/Logo-with-text.png" height="30rem"></p>
         </footer>
