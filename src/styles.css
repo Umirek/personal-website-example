@@ -2,6 +2,7 @@
     --bs-primary-rgb: 94,59,238 !important;
     --bs-secondary-rgb: 245,252,255;
     --bs-success-rgb: 245,252,255;
+    --bs-secondary-color: rgb(0,0,0) !important;
 }
 
 
