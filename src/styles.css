@@ -11,12 +11,18 @@ body{
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+    width: 100%;
 }
 
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     color: #282938;
     font-weight: bold;
+}
+
+#footer-on-contact-page{
+    position: absolute;
+    bottom: 0;
 }
 
 .button-contact-me{
@@ -56,6 +62,11 @@ input, textarea {
 input:focus,textarea:focus,
 input:active,textarea:active{
     box-shadow: 0 0 0 0.25rem rgba(94,59,238,.25) !important;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
 }
 
 .btn-primary {
