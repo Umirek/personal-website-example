@@ -20,10 +20,13 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-#footer-on-contact-page{
-    position: absolute;
-    bottom: 0;
+@media screen and (min-width: 768px){
+    #footer-on-contact-page{
+        position: absolute;
+        bottom: 0;
+    }
 }
+
 
 .button-contact-me{
     background-color: #FFFFFF;
