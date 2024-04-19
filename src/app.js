@@ -35,7 +35,6 @@ app.get('/contact', (req, res) => {
 
 app.post('/contact/send', (req, res) => {
     const {firstname, lastname, email, phone, letter, terms} = req.body;
-    console.log('Post Executed')
     const mailOptions = {
         from: process.env.EMAIL_ID,
         to: process.env.EMAIL_ID,
