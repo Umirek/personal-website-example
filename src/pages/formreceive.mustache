@@ -52,58 +52,14 @@
     </nav>
 
 
-    <!--CONTACT FORM-->
-    <div class="container mt-5">
-        <div class="text-center">
-            Get In Touch
-        </div>
-
-        <h2 class="text-center mb-5">Contact me</h2>
-
-        <form action="/contact/send" method="POST">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-12 col-md-6 mb-3">
-                        <label for="firstname" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="firstname" name="firstname" required>
-                    </div>
-
-                    <div class="col-12 col-md-6 mb-3">
-                        <label for="lastname" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="lastname" name="lastname" required>
-                    </div>
-
-                    <div class="col-12 col-md-6 mb-3">
-                        <label for="email" class="form-label">E-Mail</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-
-                    <div class="col-12 col-md-6 mb-3">
-                        <label for="phone" class="form-label">Phone number</label>
-                        <input type="text" class="form-control" id="phone" name="phone">
-                    </div>
-
-                    <div class="col-12 mb-3">
-                        <label for="textarea" class="form-label">Message</label>
-                        <textarea class="form-control" name="letter" id="textarea" placeholder="What is your concern?" rows="6" required></textarea>
-                    </div>
-
-                    <div class="col-12 mb-3">
-                        <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
-                        <label for="terms" class="form-label">I accept the terms</label>
-                    </div>
-                    
-                    <div class="col text-center">
-                        <button class="btn btn-primary" type="submit">Submit</button>
-                    </div>
-                
-            
-                </div>
-            </div>
-        </form>
+    
+    <div class="container text-center mt-5 mb-3">
+        <h1>The form has been sent successfully</h1>
     </div>
 
+    <div class="col text-center">
+        <a href="/"><button class="btn btn-primary">Back to home</button></a>
+    </div>
 
 
     <!--FOOTER-->
