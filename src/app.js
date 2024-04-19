@@ -34,7 +34,7 @@ app.get('/contact', (req, res) => {
 
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.post('/contact/send', (req, res) => {
+app.post('/send', (req, res) => {
     const {firstname, lastname, email, phone, letter, terms} = req.body;
     const mailOptions = {
         from: process.env.EMAIL_ID,
