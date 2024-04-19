@@ -56,7 +56,7 @@ app.post('/contact/send', (req, res) => {
 
         } else {
             console.log('Email sent: ' + info.response);
-            res.status(200).send('We got your request');
+            res.status(200).render('form_receive');
         }
     });
 });
