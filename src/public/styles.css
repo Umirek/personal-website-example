@@ -20,7 +20,15 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
-@media screen and (min-height: 1100px) and (min-width: 768px){
+@media screen and (min-height: 1040px) and (min-width: 250px){
+    #footer-on-contact-page{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1400px) and (min-height: 840px) 
+{
     #footer-on-contact-page{
         position: absolute;
         bottom: 0;
