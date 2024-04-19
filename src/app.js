@@ -23,15 +23,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('views', path.join(__dirname, 'pages'));
 app.set('view engine', 'mustache');
 app.engine('mustache', mustacheExpress());
-app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages/index.html'));
+    res.render('index');
 })
 
 app.get('/contact', (req, res) => {
-    res.sendFile(path.join(__dirname, 'pages/contact.html'));
+    res.render('contact');
 })
+
+app.use(bodyParser.urlencoded({extended: false}));
 
 app.post('/contact/send', (req, res) => {
     const {firstname, lastname, email, phone, letter, terms} = req.body;
@@ -56,12 +57,10 @@ app.post('/contact/send', (req, res) => {
 
         } else {
             console.log('Email sent: ' + info.response);
-            res.status(200).render('form_receive');
+            res.status(200).render('formreceive');
         }
     });
 });
-
-
 
 const port = process.env.PORT || 3000;
 
