@@ -25,7 +25,7 @@ app.set('view engine', 'mustache');
 app.engine('mustache', mustacheExpress());
 
 app.get('/', (req, res) => {
-    res.render('index');
+    res.sendFile(path.join(__dirname, 'pages/index.html'));
 })
 
 app.get('/contact', (req, res) => {
