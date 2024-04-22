@@ -76,6 +76,13 @@ input:active,textarea:active{
     box-shadow: 0 0 0 0.25rem rgba(94,59,238,.25) !important;
 }
 
+.bg-light{
+    background-color: #9c9cf8 !important;
+}
+
+.border-light{
+    border-right: 1px solid #9c9cf8 !important;
+}
 .footer{
     position: absolute;
     bottom: 0;
