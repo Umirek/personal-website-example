@@ -42,10 +42,10 @@ app.post('/send', (req, res) => {
         subject: `New Message from ${firstname} ${lastname}`,
         html: `
         <p><strong>Name:</strong> ${firstname}</p>
-        <p><strong>Name:</strong> ${lastname}</p>
+        <p><strong>Lastname:</strong> ${lastname}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone}</p>
-        <p><strong>Date of Birth:</strong> ${letter}</p>
+        <p><strong>Letter:</strong> ${letter}</p>
         `
     };
 
